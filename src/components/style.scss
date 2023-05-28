@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(162, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.inputTask{
+background-color:rgb(220, 249, 249);   
+width: 50%;
+border: none;
+&:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+ 
+}
+}
+.btn{
+    display: inline;
+    width: 20%;
+    margin-left: 2%;
+    &:hover{
+        cursor: pointer;
+        font-weight: 900;
+    }
+}
+.task{
+    display: flex;
+    width: 500px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color: rgb(226, 226, 226);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+.todo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}}
+.taskText{
+    margin: 0;
+    width: 80%;
+    text-align: start;
+    padding-left: 10px;
+}
+.remove{
+    width: 80px;
+    background-color:rgb(220, 249, 249); 
+    border-radius: 10px;
+   
+    &:hover{
+        cursor: pointer;
+        background-color: antiquewhite;
+     
+    }
+}
+.check{
+    margin: 0;
+}
+.checked{
+    background-color: rgb(187, 241, 133);
+}
+.notChecked{
+    background-color: rgb(226, 226, 226);
+}
+.done{
+    background-color: rgb(187, 241, 133);
+    padding-right: 10px;
+}
+}
